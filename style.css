@@ -97,7 +97,7 @@ body {
   border: solid black 1px;
   margin-right: 10px;
   margin-top: 10px;
-  width: 300px;
+  width: 350px;
 }
 /* footer--section */
 .footer-section{
@@ -117,4 +117,9 @@ body {
 .footer-section-title{
     margin-top: 20px;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section-title p{
+  margin: 20px;
 }
