@@ -14,7 +14,7 @@ body {
   position: sticky;
   top: 0px;
   background-color: white;
-   z-index: 1;
+  z-index: 1;
 }
 .navbar-s1-title {
   color: #a335f0;
@@ -31,7 +31,7 @@ body {
   align-items: center;
   gap: 30px;
 }
-.navbar-s4{
+.navbar-s4 {
   display: none;
 }
 .navbar-s2 i {
@@ -94,10 +94,9 @@ body {
 }
 .recomented--section,
 .most-popular--section {
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
 }
 .recomented--section img,
 .most-popular--section img {
@@ -164,36 +163,41 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-body{
-font-size: 10px;
-}
-.img-section-header{
-  top: 20%;
-}
-.recomented--section,.most-popular{
+  body {
+    font-size: 10px;
+  }
+  .img-section-header {
+    top: 20%;
+  }
+  .recomented--section,
+  .most-popular {
     flex-basis: 20%;
     margin: 5px;
   }
 }
 @media screen and (max-width: 600px) {
-.recomented--section,.most-popular{
+  .recomented--section,
+  .most-popular {
     flex-basis: 20%;
     margin: 5px;
   }
-.img-section-header{
-  top: 10%;
+  .img-section-header {
+    top: 10%;
+  }
+  .navbar-two {
+    display: none;
+  }
+  .navbar-s2,
+  .navbar-s3 {
+    display: none;
+  }
 }
-.navbar-two{
-display: none;
-}
-.navbar-s2,.navbar-s3{
-display: none;
-}}
-@media screen and (max-width: 400px){
-  .navbar-s4{
+@media screen and (max-width: 400px) {
+  .navbar-s4 {
     display: block;
   }
-  .recomented--section,.most-popular{
+  .recomented--section,
+  .most-popular {
     flex-basis: 20%;
     margin: 5px;
   }
