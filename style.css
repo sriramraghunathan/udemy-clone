@@ -170,8 +170,21 @@ body {
 .footer-section-title p {
   margin: 20px;
 }
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 10px;
+  }
+  .img-section-header {
+    top: 20%;
+  }
+  .recomented--section,
+  .most-popular {
+    flex-basis: 20%;
+    margin: 5px;
+  }
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   body {
     font-size: 10px;
   }
